@@ -37,12 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    'myapp',
 
     'tailwind',
     'theme',
     'django_browser_reload',
-    
-    'myapp',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
-    "django_browser_reload.middleware.BrowserReloadMiddleware",
+    'django_browser_reload.middleware.BrowserReloadMiddleware',
 
 ]
 
